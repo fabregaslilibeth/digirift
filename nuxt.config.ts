@@ -5,7 +5,9 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify']
   },
-  router: {
-    base: "/digirift/",
+  runtimeConfig: {
+    public: {
+      baseURL: 'https://fabregaslilibeth.github.io/digirift/',
+    },
   },
 })

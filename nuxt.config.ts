@@ -5,4 +5,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vuetify']
   },
+  router: {
+    base: "/digirift/",
+  },
 })
